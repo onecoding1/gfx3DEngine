@@ -109,16 +109,6 @@ Operator / ( v1 As vec3, v2 As vec3 ) As vec3
   Return vec3( v1.x / v2.x, v1.y / v2.y, v1.z / v2.z )
 End Operator
 
-
-'FUNCTIONS TO CREATE VECTORS
-Function createVec2 (x As Single, y As Single) As vec2
-	Return vec2( x, y )
-End Function
-
-Function createVec3 (x As Single, y As Single, z As Single) As vec3
-	Return vec3( x, y, z )
-End Function
-
 'HELPER FUNCTIONS
 Function normalize(tv As vec3) As vec3
    Dim As Single length
